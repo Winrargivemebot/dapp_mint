@@ -10,6 +10,7 @@ window.addEventListener('load', async () => {
     } else {
         console.log('Non-Ethereum browser detected. You should consider trying MetaMask.');
     }
+    console.log('Web3 instance initialized'); // Add this line outside the if-else block
 });
 
 // Smart contract information
