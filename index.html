@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your DApp</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to import the styles.css file -->
+    <title>Web3 Interaction Example</title>
 </head>
 <body>
-  <div class="input-container">
-  <label for="walletAddress">Wallet Address:</label>
-  <input type="text" id="walletAddress" placeholder="Enter wallet address">
-  <label for="tokenAmount">Token Amount:</label>
-  <input type="number" id="tokenAmount" placeholder="Enter token amount">
-  <button class="button" id="connectWalletButton">Connect Wallet</button> <!-- Add this line -->
-  <button class="button" id="mintButton">Mint Tokens</button>
-</div>
+    <h1>Token Minting DApp</h1>
+    
+    <button id="connectWalletButton">Connect Wallet</button>
+    <br><br>
+    
+    <label for="walletAddress">Recipient Address:</label>
+    <input type="text" id="walletAddress" placeholder="Recipient's Ethereum Address">
+    <br>
+    
+    <label for="tokenAmount">Token Amount:</label>
+    <input type="number" id="tokenAmount" placeholder="Amount of Tokens">
+    <br><br>
+    
+    <button id="mintButton">Mint Tokens</button>
+    
+    <script src="your_script.js"></script>
+</body>
+</html>
+
 
 
   <script src="script.js"></script>
